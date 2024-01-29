@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Button from './ButtonComponent'
+import Img from './ImgClassComponent'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Button TextButton="Premimi" />
+        <Img
+          Src="https://www.petme.it/wp-content/uploads/2023/04/IPA_ALMBA6E82-scaled-e1682066783560.jpg"
+          Alt="tigere"
+        />
+        <Img
+          Src="https://upload.wikimedia.org/wikipedia/commons/6/66/Adult_male_Royal_Bengal_tiger.jpg"
+          Alt="tigere solitaria"
+        />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
